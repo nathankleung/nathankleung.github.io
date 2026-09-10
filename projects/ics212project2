@@ -1,0 +1,79 @@
+---
+layout: project
+type: project
+image: img/micromouse/micromouse-square.jpg
+title: "Banking Interface and Database"
+date: 2025
+published: true
+labels:
+  - C++
+summary: "A user interface and supporting database functions designed under specifications from my ICS 212: Program Structure class."
+---
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+</div>
+
+This project involved creating a user interface that prompted the user to select from a set of actions: adding a record, deleting a record, finding a record, printing all records, or quitting the program. Receiving invalid input causes the program to prompt the user again while the valid inputs can be entered in partially, i.e [a] works the same as [add]. Each of the options calls the related functions such as addRecord takes input from the user for the record data such as account name, number, and address which creates the record object and stores it in sorted order inside a linked list. After quitting the program, all of the stored records are written into a text file which is read at the start of the program to save record data between sessions to be accessed using the functions.
+
+For this project, I was the lead programmer who was responsible for programming the various capabilities of the user interface and functions under the specifications put forth by the instructor. This project, called Project 2 is an extension of a previous project, Project 1, of the same function made in C, but Project 2 involved converting everything to C++ plus added functionality.
+
+Here is the function that allows for the reading of account data from a file:
+
+```cpp
+int llist::readfile() 
+{
+    int return_value;
+    int uaccountno;
+    char uname[25];
+    char uaddress[45];
+    char delimit;
+    string acc_name;
+    string multi_line;
+
+    delimit = '#';
+    return_value = 0;
+
+    #ifdef DEBUG_MODE
+        cout << endl;
+        cout << "int llist :: readfile() - No parameters" << endl;
+        cout << endl;
+    #endif
+
+    cout << "Reading from: " << this->filename << endl;
+    fstream inputFile((this->filename), ios::in);
+    if (!inputFile.is_open()) 
+    {
+        cerr << "Error opening file!" << endl;
+        return_value = -1;
+    }
+    else
+    {
+
+        while (inputFile >> uaccountno >> acc_name)
+        {
+            inputFile.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            getline(inputFile, multi_line, delimit);
+            inputFile.ignore(1);
+            multi_line = multi_line + delimit;
+
+            strncpy(uname, acc_name.c_str(), sizeof(uname));
+            strncpy(uaddress, multi_line.c_str(), sizeof(uaddress));
+            
+            #ifdef DEBUG_MODE
+                cout << "\nuaccountno: " << uaccountno << endl;
+                cout << "uname: " << uname << endl;
+                cout << "uddress: " << uaddress << endl;
+                cout << endl;
+            #endif
+            addRecord(uaccountno, uname, uaddress); 
+        }
+
+        inputFile.close();
+    }
+
+    return return_value;
+}
+```
