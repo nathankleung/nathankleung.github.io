@@ -18,7 +18,7 @@ summary: "A user interface and supporting database functions designed under spec
 
 This project involved creating a user interface that prompted the user to select from a set of actions such as adding records, deleting records, finding a record, printing all records, or quitting the program. Receiving invalid input causes the program to prompt the user again while the valid inputs can be entered in partially, i.e [a] works the same as [add]. Each of the options calls the related functions such as addRecord takes input from the user for the record data such as account name, number, and address which creates the record object and stores it in sorted order inside a linked list. After quitting the program, all of the stored records are written into a text file which is read at the start of the program to save record data between sessions to be accessed using the functions.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the user interface and functions under the specifications put forth by the instructor. This project, called Project 2 is an extension of a previous project, Project 1, of the same function made in C, but Project 2 involved converting everything to C++ plus added functionality.
+For this project, I was the lead programmer who was responsible for programming the various capabilities of the user interface and functions under the specifications put forth by the instructor for both the original project programmed in C as well as adapting it to C++. This project, called Project 2 is an extension of a previous project, Project 1, of the same function made in C, but Project 2 involved converting everything to C++ plus added functionality.
 
 Here is the function that allows for the reading of account data from a file:
 
@@ -77,3 +77,7 @@ int llist::readfile()
     return return_value;
 }
 ```
+
+From this project, I was able leverage my prior experience in creating a comprehensive C project to learn how the same problems would be tackled in C++. The added functionality of C++ with namespaces and the I/O functions, and String functions made rewriting certain functions much more convenient. Since the project models the kinds of programs that would be put into production at a company, it helped me learn how to approach programming for the user as they approach the program from the user interface and making sure that the backend functions work, store, and retrieve data properly with no bugs. 
+
+Overall, the project was a valuable learning experience in how it would be like to be given the task of creating a banking records software with given specifications by a client are met while at the same time creating an easily understandable program that can be used by the client's employees without confusion.
