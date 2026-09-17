@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/ics212project2/ics212project2output.png
 title: "Banking Interface and Database"
 date: 2025
 published: true
@@ -12,7 +12,6 @@ summary: "A user interface and supporting database functions designed under spec
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/ics212project2/ics212project2output.png" class="img-thumbnail" >
   <img width="200px" src="../img/ics212project2/project2addprintoutput.png" class="img-thumbnail" >
   <img width="200px" src="../img/ics212project2/project2deleteoutput.png" class="img-thumbnail" >
   <img width="200px" src="../img/ics212project2/project2saveandprintoutput.png" class="img-thumbnail" >
