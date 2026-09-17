@@ -7,13 +7,15 @@ date: 2025
 published: true
 labels:
   - C++
+  - C
 summary: "A user interface and supporting database functions designed under specifications from my ICS 212: Program Structure class."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/ics212project2/ics212project2output.png" class="img-thumbnail" >
+  <img width="200px" src="../img/ics212project2/project2addprintoutput.png" class="img-thumbnail" >
+  <img width="200px" src="../img/ics212project2/project2deleteoutput.png" class="img-thumbnail" >
+  <img width="200px" src="../img/ics212project2/project2saveandprintoutput.png" class="img-thumbnail" >
 </div>
 
 Repo url: https://github.com/nathankleung/banking-records
