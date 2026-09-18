@@ -4,7 +4,7 @@ type: project
 image: img/battleshipOutput/bs1.png
 title: "Battleship Lite"
 date: 2024
-published: false
+published: true
 labels:
   - Java
 summary: "A small program for deploying ships in Battleship."
