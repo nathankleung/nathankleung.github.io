@@ -21,7 +21,7 @@ Having standards just makes sense when we want to maintain a certain level of qu
 Not to be confused with code writing conventions, coding standards are created by groups, organizations, or companies. These standards require that code be formatted or written according to how the creator of the standard prefers. 
 For example, an additional new line at the end of the program normally doesn’t break any functionality in Javascript, but the Airbnb Javascript coding standards would flag this as an error and require it be fixed.
 
-<img width="200px" class="rounded float-start pe-4" src="../img/code-standards/eslintErrors.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/code-standards/eslintErrors.png">
 
 ## Why should we have to follow coding standards?
 
