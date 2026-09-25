@@ -12,7 +12,7 @@ labels:
   - VSCode
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/Output Pictures/thinking-person.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/code-standards/codeStandard.png">
 
 Having standards just makes sense when we want to maintain a certain level of quality not just in our own lives but also in the way we write code with the concept of coding standards.
 
@@ -21,6 +21,7 @@ Having standards just makes sense when we want to maintain a certain level of qu
 Not to be confused with code writing conventions, coding standards are created by groups, organizations, or companies. These standards require that code be formatted or written according to how the creator of the standard prefers. 
 For example, an additional new line at the end of the program normally doesn’t break any functionality in Javascript, but the Airbnb Javascript coding standards would flag this as an error and require it be fixed.
 
+<img width="200px" class="rounded float-start pe-4" src="../img/code-standards/eslintErrors.png">
 
 ## Why should we have to follow coding standards?
 
@@ -72,3 +73,11 @@ Here is what is inside package.json
 
 ```
 ## The hard part
+
+Actually modifying the code to adhere to the standards is not too difficult thanks to extensions like Error Lens which makes picking out errors visually incredibly easy and most of the time the errors are descriptive enough to make a quick fix. Plus, the npm install commands do most of the work for you by installing all the plugins and settings as specified in the package.json.
+
+The real difficulty comes in setting up the environment to actually take the coding standards with ESLint so they show up in the editor. I must have spent hours trying to get it to work on multiple computers, ran all kinds of commands, had to get around dependency errors, added new config settings, done fresh installs of nvm, node, VSCode, I've tried all sorts of things but errors in the settings I was working with and platform differences (thanks Windows) led to problems. It doesn't help that the coding standards being used for ESLint are on outdated versions and even outdated setups as ESLint as switched from eslintrc to eslintconfig for configuring the lint settings.
+
+## After everything
+
+Despite my dislike for fixing the installations in order to get ESLint working mostly properly (certain scripts still don't work), I recognize that coding standards are valuable practice not just in a professional setting that requires them, but they can instill good habits in coding with a certain language that ultimately is a benefit. All that needs to be done is to agonize for hours over installation conflicts and incorrect settings then its just doing little fixes and you'll have clean, up-to-standard code and you'll become a neater (better is arguable) programmer.
