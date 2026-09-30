@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/battleshipOutput/bs1.png
-title: "Banking Interface and Database"
+title: "ICS 111: Arrays Lesson"
 date: 2026
 published: true
 labels:
