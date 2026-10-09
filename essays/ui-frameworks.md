@@ -26,7 +26,7 @@ UI Frameworks like Bootstrap 5 are useful because they offer much more flexibili
 
 **Here's an example of a simple webpage with raw html and no styling:**
 
-<img width="300px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
+<img width="400px" class="rounded pe-4" src="../img/ui-frameworks/browserhistory1.png">
 
 It can be styled manually but many of the features we typically associate with websites like menus, navigation bars, icons, and adaptive design are time consuming to reproduce manually with raw html and css. This is why people use UI Frameworks to get rid of the time debt that would come from creating webpages in raw html and css because it simply makes sense to make the most out of the tools available to developers while still creating good looking webpages.
 
@@ -34,7 +34,7 @@ It can be styled manually but many of the features we typically associate with w
 
 **Let's see the same page but built with Bootstrap and more styling:**
 
-<img width="600px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory-bootstrap.png">
+<img width="400px" class="rounded pe-4" src="../img/ui-frameworks/browserhistory-bootstrap.png">
 
 To include Bootstrap in the project, we include the scripts, links, and icon set inside of the head section of our html file.
 ```html
@@ -50,7 +50,7 @@ To include Bootstrap in the project, we include the scripts, links, and icon set
 
 In return for the time and effort of learning the UI Framework, the webpage contains a navigation bar that houses links to the page contents, each of the three browsers are held in their own column div inside of a row div to get evenly spaced content. Having robust options available to the developer from the start instead of having to reimplement common webpage design features makes a strong case for the use of UI Frameworks as can be seen in the above example.
 
-<img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/bootstrap-kit-sketch.png">
+<img width="400px" class="rounded pe-4" src="../img/ui-frameworks/bootstrap-kit-sketch.png">
 
 ## My experience with UI Frameworks
 
