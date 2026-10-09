@@ -26,7 +26,7 @@ UI Frameworks like Bootstrap 5 are useful because they offer much more flexibili
 
 **Here's an example of a simple webpage with raw html and no styling:**
 
-<img width="600px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
 
 It can be styled manually but many of the features we typically associate with websites like menus, navigation bars, icons, and adaptive design are time consuming to reproduce manually with raw html and css. This is why people use UI Frameworks to get rid of the time debt that would come from creating webpages in raw html and css because it simply makes sense to make the most out of the tools available to developers while still creating good looking webpages.
 
