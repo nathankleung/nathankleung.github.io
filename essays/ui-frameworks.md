@@ -26,7 +26,7 @@ UI Frameworks like Bootstrap 5 are useful because they offer much more flexibili
 
 **Here's an example of a simple webpage with raw html and no styling:**
 
-<img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
 
 It can be styled manually but many of the features we typically associate with websites like menus, navigation bars, icons, and adaptive design are time consuming to reproduce manually with raw html and css. This is why people use UI Frameworks to get rid of the time debt that would come from creating webpages in raw html and css because it simply makes sense to make the most out of the tools available to developers while still creating good looking webpages.
 
@@ -34,7 +34,7 @@ It can be styled manually but many of the features we typically associate with w
 
 **Let's see the same page but built with Bootstrap and more styling:**
 
-<img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory-bootstrap.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory-bootstrap.png">
 
 To include Bootstrap in the project, we include the scripts, links, and icon set inside of the head section of our html file.
 ```html
@@ -56,4 +56,4 @@ In return for the time and effort of learning the UI Framework, the webpage cont
 
 Even though I acknowledge the importance and convenience of UI Frameworks in web development, I still can't deny that learning the tool is still a huge but necessary inconvenience. As a somewhat incompetent web developer, I am still proud of what I was able to build or recreate using these tools and being able to learn new things is a valuable skill to have in the everchanging world of Software Engineering but also in many aspects of life outside of it.
 
-I still don't like web development, but I value the experience of learning these UI Frameworks and how they enable developers to be more efficient in creating the wonderful (and some not as much) webpages that we see and interact with everyday.
+I still don't like web development and having to deal with organizing all the divs, make nav elements, sectioning the page, and adding the style, but I value the experience of learning these UI Frameworks and how they enable developers to be more efficient in creating the wonderful (and some not as much) webpages that we see and interact with everyday.
