@@ -18,48 +18,35 @@ labels:
 
 UI Frameworks can be thought of as a starter kit for developing user interfaces as they come with various features, options, and functionality to quickly produce effective, user-facing content.
 
-UI Frameworks like Bootstrap 5 are useful because they offer much more flexibility and depth when it comes to customizing webpages that would otherwise take much more time and effort to produce the same results without them.
 
 
-Not to be confused with code writing conventions, coding standards are created by groups, organizations, or companies. These standards require that code be formatted or written according to how the creator of the standard prefers. 
-For example, an additional new line at the end of the program normally doesn’t break any functionality in Javascript, but the Airbnb Javascript coding standards would flag this as an error and require it be fixed.
 
 <img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/bootstrap-kit-sketch.png">
 
-## Why should we have to follow coding standards?
+## Why should we bother using UI Frameworks?
 
-If you’ve ever looked at someone else’s code and wondered what would possess them to write it in such a way, then you can already see some of the intention behind coding standards.
+UI Frameworks like Bootstrap 5 are useful because they offer much more flexibility and depth when it comes to customizing webpages that would otherwise take much more time and effort to produce the same results without them.
 
-Coding standards are put into place because the groups that create them have a vested interest in ensuring that code that is written for their purposes follows a certain format and style. By keeping these rules consistent, maintaining, updating, and parsing code becomes much more streamlined and integrating it into existing codebases becomes much easier. These standards may or may not deal with the actual functionality of the code or syntax but rather are rules to enforce code style.
+**Here's an example of a simple webpage with no styling:**
 
-## My experience with coding standards
+<img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory1.png">
 
+It can be styled manually but many of the features we typically associate with websites like menus, navigation bars, icons, and adaptive design with these elements are time consuming to reproduce manually.
 
+**Let's see the same page but built with Bootstrap and more styling:**
+
+<img width="400px" class="rounded float-start pe-4" src="../img/ui-frameworks/browserhistory-bootstrap.png">
+
+To include Bootstrap in the project, we include the scripts, links, and icon set inside of the head section of our html file.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
 ```
-Install:
-sample.eslintrc.js, rename it to .eslintrc.js.
-sample.eslintignore, rename it to .eslintignore.
-sample.gitignore, rename it to .gitignore.
-sample.package.json, rename it to package.json.
-sample.tsconfig.json, rename it to tsconfig.json.
 
-In terminal:
-Invoke npm install to install ESLint.
-```
-
-These files provide the settings and plugins that npm will install for ESLint to reflect our class coding standards. Some examples of the rules include strings needing to use single quotes instead of double quotes, no leading spaces, and there can only be one new line at the end of the file. When done correctly, the code written is constantly checked if they adhere to the coding standards and are flagged as errors if not.
-
-Here is what is inside 
-```
-
-
-```
-## The hard part
-
-Actually modifying the code to adhere to the standards is not too difficult thanks to extensions like Error Lens which makes picking out errors visually incredibly easy and most of the time the errors are descriptive enough to make a quick fix. Plus, the npm install commands do most of the work for you by installing all the plugins and settings as specified in the package.json.
-
-The real difficulty comes in setting up the environment to actually take the coding standards with ESLint so they show up in the editor. I must have spent hours trying to get it to work on multiple computers, ran all kinds of commands, had to get around dependency errors, added new config settings, done fresh installs of nvm, node, VSCode, I've tried all sorts of things but errors in the settings I was working with and platform differences (thanks Windows) led to problems. It doesn't help that the coding standards being used for ESLint are on outdated versions and even outdated setups as ESLint as switched from eslintrc to eslintconfig for configuring the lint settings.
-
-## After everything
-
-Despite my dislike for fixing the installations in order to get ESLint working mostly properly (certain scripts still don't work), I recognize that coding standards are valuable practice not just in a professional setting that requires them, but they can instill good habits in coding with a certain language that ultimately is a benefit. All that needs to be done is to agonize for hours over installation conflicts and incorrect settings then its just doing little fixes and you'll have clean, up-to-standard code and you'll become a neater (better is arguable) programmer.
