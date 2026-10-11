@@ -12,4 +12,7 @@ summary: "Contains the lesson for ICS 111-04 on the topic of Arrays."
 ---
 
 ## Drive link: 
-[Lesson materials](https://drive.google.com/drive/folders/1ejrVBhj6P9WH2gjq755DDs0QDFg2LJ0k?usp=sharing)
+Access the lesson materials [here](https://drive.google.com/drive/folders/1ejrVBhj6P9WH2gjq755DDs0QDFg2LJ0k?usp=sharing)
+
+Raw URL: 
+https://drive.google.com/drive/folders/1ejrVBhj6P9WH2gjq755DDs0QDFg2LJ0k?usp=sharing
